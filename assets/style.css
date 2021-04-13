@@ -7,6 +7,7 @@ body{
     border: 2px solid red;
     height: 250px;
 }
+
 /******
 Header  
 *******/
@@ -40,6 +41,7 @@ header{
 Main
 *******/
 
+/* Jumbotron */
 .jumbotron{
     background-color: #1ABC9C;
     border-radius: 0;
@@ -48,7 +50,17 @@ Main
 .jumbotron img{
     height: 260px;
 }
+/* Portfolio */
+.portfolio{
+    padding:50px 0;
+}
 
+/* About */
+
+.about{
+    background-color: #1ABC9C;
+    padding: 20px 0;
+}
 /******
 Footer
 *******/
