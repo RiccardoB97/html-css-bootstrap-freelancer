@@ -2,7 +2,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.dbg{
+    background-color: lightgreen;
+    border: 2px solid red;
+    height: 250px;
+}
 /******
 Header  
 *******/
