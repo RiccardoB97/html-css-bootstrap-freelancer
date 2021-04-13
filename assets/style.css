@@ -89,3 +89,21 @@ Main
 /******
 Footer
 *******/
+footer{
+    color: white;
+}
+
+.top_footer{
+    background-color: #3A546D;
+    padding: 30px;
+}
+
+.bot_footer{
+    background-color: #2C3E50;
+    padding: 30px;
+}
+
+.bot_footer h5{
+    font-size: 0.7rem;
+    margin: 0 auto;
+}
