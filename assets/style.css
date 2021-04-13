@@ -61,6 +61,31 @@ Main
     background-color: #1ABC9C;
     padding: 20px 0;
 }
+
+/* Contact me */
+.contact_me{
+    padding: 50px 80px;
+}
+
+
+.contact_me form{
+    width: 80%;
+}
+.contact_me .form-control{
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    color: black;
+}
+.form-control::placeholder{
+    color: black;
+}
+.contact_me .btn{
+    background-color: #1ABC9C;
+    color: white;
+}
+
 /******
 Footer
 *******/
