@@ -1,9 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /******
 Header  
 *******/
 
+header{
+    background-color:  #2C3E50;
+}
 
+.navbar a{
+    color: white;
+    text-transform: uppercase;
+}
 
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 900;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
 
 /******
 Main
