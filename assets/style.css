@@ -36,8 +36,14 @@ header{
 Main
 *******/
 
+.jumbotron{
+    background-color: #1ABC9C;
+    border-radius: 0;
+}
 
-
+.jumbotron img{
+    height: 260px;
+}
 
 /******
 Footer
