@@ -9,6 +9,11 @@ h2{
     font-weight: 600;
 }
 
+h4{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
 /* Utilities */
 
 .dbg{
@@ -165,10 +170,49 @@ footer{
     color: white;
 }
 
+/* Top footer */
 .top_footer{
     background-color: #3A546D;
     padding: 30px;
 }
+
+.top_footer .px_50{
+    padding: 0 50px;
+}
+
+.top_footer ul{
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.top_footer ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.top_footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+}
+
+.circle:hover{
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.393);
+}
+
+/* Bottom footer */
 
 .bot_footer{
     background-color: #2C3E50;
